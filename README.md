@@ -10,8 +10,9 @@ Aufgrund dieser Situation gibt es clientseitig immer mehr Javascript-Code. Diese
 
 ## Module-Formate
 Es gibt verschiedene Möglichkeiten um Javascript-Module (= eine Javascript Datei) zu laden. Z.B.:
-* Script-Tag (kein Module System
-   Exportiert ins globale window Objekt. Die Abhängigkeiten werden über das globale window Objekt bezogen.
+* Script-Tag (kein Module System)
+
+Exportiert ins globale window Objekt. Die Abhängigkeiten werden über das globale window Objekt bezogen.
 
    Potentielle Probleme:
    - Konflikte im globalen Objekt
@@ -19,6 +20,7 @@ Es gibt verschiedene Möglichkeiten um Javascript-Module (= eine Javascript Date
    - In grossen Projekten eine riesige Liste von Abhängigkeiten. Die Wartbarkeit ist schwierig.
 
 * [CommonJS](http://requirejs.org/docs/commonjs.html)
+
 CommonJS nutzt die synchrone require-Methode um eine Abhängigkeit zu laden und gibt entpsrechend ein exportiertes Modul zurück. Module werden über das exports Objekt gegen aussen propagiert.
 
    Vorteile
@@ -37,6 +39,7 @@ CommonJS nutzt die synchrone require-Methode um eine Abhängigkeit zu laden und 
     * wreq
 
 * AMD (Asynchronous Module Definition; asynchronous require)
+
 Verschiedene Modul-Systeme (für den Browser) hatten probleme mit dem synchronen require (von CommonJS) und haben eine asynchrone Version angeboten.
 
    Vorteile
@@ -51,6 +54,7 @@ Verschiedene Modul-Systeme (für den Browser) hatten probleme mit dem synchronen
       * curlJS - clientseitig
 
 * ES2015 Module
+
 ECMAScript 2015 hat in der Spezifikation spezifische Sprachkonstrukte, welche für ein Modul System gedacht sind.
 
    Vorteile
