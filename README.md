@@ -9,9 +9,9 @@ Motivation und Beispiel für die Nutzung von Webpack
 Aufgrund dieser Situation gibt es clientseitig immer mehr Javascript-Code. Diese Code-Basis muss organisiert werden. Die Organisation erfolgt mittels Modulen.
 
 ## Module-Formate
-Es gibt verschiedene Möglichkeiten um Javascript-Module (= 1 Javascript Datei) zu laden. Z.B.:
+Es gibt verschiedene Möglichkeiten um Javascript-Module (= eine Javascript Datei) zu laden. Z.B.:
 * Script-Tag (kein Module System)
-* CommonJS
+* [CommonJS](http://requirejs.org/docs/commonjs.html)
 * AMD
 * ES2015 Module
 
