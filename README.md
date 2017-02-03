@@ -14,8 +14,11 @@ Es gibt verschiedene Möglichkeiten um Javascript-Module (= eine Javascript Date
 ### Script-Tag (kein Module System)
 Exportiert ins globale window Objekt. Die Abhängigkeiten werden über das globale window Objekt bezogen.
 
-`<script src="module1.js"></script><script src="module2.js"></script><script src="libraryA.js"></script><script src="module3.js"></script>`
-
+    <script src="module1.js"></script>
+    <script src="module2.js"></script>
+    <script src="libraryA.js"></script>
+    <script src="module3.js"></script>
+    
 Potentielle Probleme:
 - Konflikte im globalen Objekt
 - Die Reihenfolge wie die einzelnen Module geladen werden ist relevant, d.h. der Entwickler muss die Reihenfolge entsprechend wissen und pflegen.
@@ -23,6 +26,11 @@ Potentielle Probleme:
 
 ### [CommonJS](http://requirejs.org/docs/commonjs.html)
 CommonJS nutzt die synchrone require-Methode um eine Abhängigkeit zu laden und gibt entpsrechend ein exportiertes Modul zurück. Module werden über das exports Objekt gegen aussen propagiert.
+
+    require("module");
+    require("../file.js");
+    exports.doStuff = function() {};
+    module.exports = someValue;
 
 Vorteile
 * Serverseitige Module können u.U. wiederverwendet werden.
@@ -42,6 +50,11 @@ Implementierungen von CommonJS:
 ### [AMD](http://requirejs.org/docs/whyamd.html) (Asynchronous Module Definition; asynchronous require)
 Verschiedene Modul-Systeme (für den Browser) hatten probleme mit dem synchronen require (von CommonJS) und haben eine asynchrone Version angeboten.
 
+    require(["module", "../file"], function(module, file) { /* ... */ });
+    define("mymodule", ["dep1", "dep2"], function(d1, d2) {  
+       return someExportedValue;
+    });
+
 Vorteile
 * Passt zu den Netzwerk Requests (asynchron)
 * Paralleles Laden von mehreren Modulen
@@ -55,6 +68,10 @@ Implementierungen
 
 ### [ES2015 Module](http://exploringjs.com/es6/ch_modules.html)
 ECMAScript 2015 hat in der Spezifikation spezifische Sprachkonstrukte, welche für ein Modul System gedacht sind.
+
+    import "jquery";
+    export function doStuff() {}
+    module "localModule" {}
 
 Vorteile
 * Standard, Zukunft
