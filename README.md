@@ -8,4 +8,6 @@ Motivation und Beispiel für die Nutzung von Webpack
 
 Aufgrund dieser Situation gibt es clientseitig immer mehr Javascript-Code. Diese Code-Basis muss organisiert werden. Die Organisation erfolgt mittels Modulen.
 
-## [Module-Formate](module-formats.mdas)
+## Themen rund um Webpack
+
+* [Module-Formate](module-formats.mdas)
