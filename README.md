@@ -13,7 +13,7 @@ Aufgrund dieser Situation gibt es clientseitig immer mehr Javascript-Code. Diese
 
 ## Module Systeme und Module Formate
 Es gibt verschiedene Möglichkeiten um Javascript-Module (= 1 Javascript Datei) zu laden. Z.B.:
-* <script>-Tag (kein Module System)
+* Script-Tag (kein Module System)
 * CommonJS
 * AMD
 * ES6 Module
