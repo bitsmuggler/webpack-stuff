@@ -37,7 +37,7 @@ Implementierungen von CommonJS:
 * modules-webmake (kompliert in ein Bundle)
 * wreq
 
-### AMD (Asynchronous Module Definition; asynchronous require)
+### [AMD](http://requirejs.org/docs/whyamd.html) (Asynchronous Module Definition; asynchronous require)
 Verschiedene Modul-Systeme (für den Browser) hatten probleme mit dem synchronen require (von CommonJS) und haben eine asynchrone Version angeboten.
 
 Vorteile
@@ -51,7 +51,7 @@ Implementierungen
 * require.js - clientseitig
 * curlJS - clientseitig
 
-### ES2015 Module
+### [ES2015 Module](http://exploringjs.com/es6/ch_modules.html)
 ECMAScript 2015 hat in der Spezifikation spezifische Sprachkonstrukte, welche für ein Modul System gedacht sind.
 
 Vorteile
