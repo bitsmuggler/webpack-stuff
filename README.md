@@ -21,20 +21,19 @@ Es gibt verschiedene Möglichkeiten um Javascript-Module (= eine Javascript Date
 * [CommonJS](http://requirejs.org/docs/commonjs.html)
 CommonJS nutzt die synchrone require-Methode um eine Abhängigkeit zu laden und gibt entpsrechend ein exportiertes Modul zurück. Module werden über das exports Objekt gegen aussen propagiert.
 
-    Vorteile
+   Vorteile
      * Serverseitige Module können u.U. wiederverwendet werden.
      * Es gibt viele Module, welche dieser Spezifikation entsprechend und via NPM angeboten werden.
-     * Die Module sind einfach zu verwenden.
-     Nachteile
+     * Die Module sind einfach zu verwenden
+   Nachteile
      * Die Aufrufe sind blockierend. Netzwerk Requests sind asynchron.
      * D.h. kein paralleles Requiren von mehreren Modulen.
 
-
-Implementierungen:
-* nodejs (serverseitig)
-* browserify
-* modules-webmake (kompliert in ein Bundle)
-* wreq
+   Implementierungen:
+    * nodejs (serverseitig)
+    * browserify
+    * modules-webmake (kompliert in ein Bundle)
+    * wreq
 
 
 
