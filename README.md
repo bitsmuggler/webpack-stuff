@@ -80,6 +80,9 @@ Nachteile
 * Vollständige Unterstützung in den Browsern noch ausstehen
 * In diesem Format gibt es noch nicht viele Module
 
-### Alternativen zu Webpack
+## Fazit
+Es gibt viele verschiedene Module-Format. Das einzusetzende Format soll flexibel wählbar sein.
+
+## Alternativen zu Webpack
 * SystemJS mit JSPM
 * Browserify
