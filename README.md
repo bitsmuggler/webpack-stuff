@@ -25,20 +25,40 @@ CommonJS nutzt die synchrone require-Methode um eine Abhängigkeit zu laden und 
      * Serverseitige Module können u.U. wiederverwendet werden.
      * Es gibt viele Module, welche dieser Spezifikation entsprechend und via NPM angeboten werden.
      * Die Module sind einfach zu verwenden
+   
    Nachteile
      * Die Aufrufe sind blockierend. Netzwerk Requests sind asynchron.
      * D.h. kein paralleles Requiren von mehreren Modulen.
 
-   Implementierungen:
+   Implementierungen von CommonJS:
     * nodejs (serverseitig)
     * browserify
     * modules-webmake (kompliert in ein Bundle)
     * wreq
 
+* AMD (Asynchronous Module Definition; asynchronous require)
+Verschiedene Modul-Systeme (für den Browser) hatten probleme mit dem synchronen require (von CommonJS) und haben eine asynchrone Version angeboten.
 
+   Vorteile
+      * Passt zu den Netzwerk Requests (asynchron)
+      * Paralleles Laden von mehreren Modulen
+      
+   Nachteile
+      * Coding Overhead, aufwändig zu lesen und schreiben
+  
+   Implementierungen
+      * require.js - clientseitig
+      * curlJS - clientseitig
 
-* AMD
 * ES2015 Module
+ECMAScript 2015 hat in der Spezifikation spezifische Sprachkonstrukte, welche für ein Modul System gedacht sind.
+
+   Vorteile
+      * Standard, Zukunft
+      
+   Nachteile
+      * Vollständige Unterstützung in den Browsern noch ausstehen
+      * In diesem Format gibt es noch nicht viele Module
 
 
 ## Alternativen zu Webpack
