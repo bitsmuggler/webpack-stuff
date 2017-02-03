@@ -20,8 +20,7 @@ Exportiert ins globale window Objekt. Die Abhängigkeiten werden über das globa
    - In grossen Projekten eine riesige Liste von Abhängigkeiten. Die Wartbarkeit ist schwierig.
 
 * [CommonJS](http://requirejs.org/docs/commonjs.html)
-
-CommonJS nutzt die synchrone require-Methode um eine Abhängigkeit zu laden und gibt entpsrechend ein exportiertes Modul zurück. Module werden über das exports Objekt gegen aussen propagiert.
+   CommonJS nutzt die synchrone require-Methode um eine Abhängigkeit zu laden und gibt entpsrechend ein exportiertes Modul zurück. Module werden über das exports Objekt gegen aussen propagiert.
 
    Vorteile
      * Serverseitige Module können u.U. wiederverwendet werden.
