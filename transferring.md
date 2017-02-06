@@ -18,5 +18,5 @@ Beide Varianten werden in der Praxis verwendet, aber es sind bei de Suboptimal.
 Fazit: Beide Varianten sind nicht optimal.
 
 ### Chunked Transferring
-Ein Kompromiss zwischen den beiden Varianten ist besser. 
+Ein Kompromiss zwischen den beiden Varianten ist besser. Daher fasst man fachlich zusammengehörige Module in sogn. Chunks. Dies ermöglicht mehrere kleinere bzw. schnellere Requests. Chunks müssen auch nicht immer zu Beginn des Anwendung geladen werden. Dies ermöglicht ein schnellerer Bootstrap der Anwendung, und der Code wird erst dann geladen, wenn er auch benötigt wird.
 
