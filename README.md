@@ -8,11 +8,11 @@ Motivation und Beispiel für die Nutzung von Webpack
 
 Aufgrund dieser Situation gibt es clientseitig immer mehr Javascript-Code. Diese Code-Basis muss organisiert werden. Die Organisation erfolgt mittels Modulen.
 
-## Themen rund um Webpack
+## Einführung rund um Webpack
 
-* [Module-Formate](module-formats.md)
-* [Transferring](transferring.md) 
-* [Why only Javascript?](why-only-javascript.md)
+1. [Module-Formate](module-formats.md)
+2. [Transferring](transferring.md) 
+3. [Why only Javascript?](why-only-javascript.md)
 
 ## Quelle
 * https://webpack.github.io/docs/motivation.html
