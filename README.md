@@ -12,7 +12,7 @@ Aufgrund dieser Situation gibt es clientseitig immer mehr Javascript-Code. Diese
 
 1. [Module-Formate](module-formats.md)
 2. [Transferring](transferring.md) 
-3. [Wieso nur Javascriptt?](why-only-javascript.md)
+3. [Wieso nur Javascript?](why-only-javascript.md)
 4. [Kernkonzepte] (core-concepts.md)
 
 ## Quelle
