@@ -12,7 +12,7 @@ Aufgrund dieser Situation gibt es clientseitig immer mehr Javascript-Code. Diese
 
 * [Module-Formate](module-formats.md)
 * [Transferring](transferring.md) 
-* [Why only Javascript](why-only-javascript.md)
+* [Why only Javascript?](why-only-javascript.md)
 
 ## Quelle
 * https://webpack.github.io/docs/motivation.html
