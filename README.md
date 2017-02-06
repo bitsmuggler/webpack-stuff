@@ -11,3 +11,7 @@ Aufgrund dieser Situation gibt es clientseitig immer mehr Javascript-Code. Diese
 ## Themen rund um Webpack
 
 * [Module-Formate](module-formats.mdas)
+
+
+## Quelle
+* https://webpack.github.io/docs/motivation.html
