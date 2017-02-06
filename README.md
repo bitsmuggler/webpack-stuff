@@ -10,8 +10,8 @@ Aufgrund dieser Situation gibt es clientseitig immer mehr Javascript-Code. Diese
 
 ## Themen rund um Webpack
 
-* [Module-Formate](module-formats.mdas)
-
+* [Module-Formate](module-formats.md)
+* [Transferring](transferring.md)
 
 ## Quelle
 * https://webpack.github.io/docs/motivation.html
