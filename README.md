@@ -17,3 +17,4 @@ Aufgrund dieser Situation gibt es clientseitig immer mehr Javascript-Code. Diese
 
 ## Quelle
 * https://webpack.github.io/docs/motivation.html
+* https://webpack.js.org/concepts/
