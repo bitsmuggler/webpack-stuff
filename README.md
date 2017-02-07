@@ -13,7 +13,7 @@ Aufgrund dieser Situation gibt es clientseitig immer mehr Javascript-Code. Diese
 1. [Einblick in die Module-Formate](module-formats.md)
 2. [Strategien für den Transfer von Dateien](transferring.md) 
 3. [Wieso nur Javascript?](why-only-javascript.md)
-4. [Kernkonzepte] (core-concepts.md)
+4. [Kernkonzepte von Webpack] (core-concepts.md)
 
 ## Quelle
 * https://webpack.github.io/docs/motivation.html
